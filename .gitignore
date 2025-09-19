@@ -22,3 +22,10 @@ logs
 .env
 .env.*
 !.env.example
+
+# Package manager files
+.pnpm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+package-lock.json
+pnpm-lock.yaml
