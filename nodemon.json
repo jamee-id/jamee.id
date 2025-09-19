@@ -1,0 +1,21 @@
+{
+  "watch": [
+    "server/**/*",
+    "api/**/*",
+    "middleware/**/*",
+    "plugins/**/*",
+    "nuxt.config.ts"
+  ],
+  "ext": "js,ts,json,vue",
+  "ignore": [
+    ".nuxt/**/*",
+    "dist/**/*",
+    "node_modules/**/*",
+    ".git/**/*"
+  ],
+  "exec": "nuxt dev",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": 1000
+}
