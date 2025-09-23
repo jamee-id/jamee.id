@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: ['shadcn-nuxt'],
+  modules: ['shadcn-nuxt', '@nuxt/eslint', '@nuxt/fonts'],
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -23,4 +23,9 @@ export default defineNuxtConfig({
      */
     componentDir: './app/components/ui'
   },
+  fonts: {
+    families: [
+      { name: 'Inspiration', provider: 'google' },
+    ]
+  }
 })
