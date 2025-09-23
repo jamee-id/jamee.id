@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
+@theme{
+  --font-inspiration: "Inspiration", cursive, serif;
+
+  --text-header-nav: 3.5rem;
+
+  --color-login: #FFB22C;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -119,5 +128,16 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .font-inspiration {
+    font-family: theme(--font-inspiration);
+  }
+  
+  /* Atau override font-serif jika mau pakai default class */
+  .font-serif {
+    font-family: theme(--font-inspiration);
   }
 }
