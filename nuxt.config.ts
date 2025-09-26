@@ -13,16 +13,10 @@ export default defineNuxtConfig({
 
   modules: ['shadcn-nuxt', '@nuxt/eslint', '@nuxt/fonts'],
   shadcn: {
-    /**
-     * Prefix for all the imported component
-     */
     prefix: '',
-    /**
-     * Directory that the component lives in.
-     * @default "./components/ui"
-     */
     componentDir: './app/components/ui'
   },
+
   fonts: {
     families: [
       { name: 'Inspiration', provider: 'google' },

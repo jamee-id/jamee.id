@@ -140,4 +140,30 @@
   .font-serif {
     font-family: theme(--font-inspiration);
   }
+
+  @keyframes seamless-scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+
+  .animate-seamless-scroll {
+    animation: seamless-scroll 30s linear infinite;
+  }
+
+  .animate-seamless-scroll:hover {
+    animation-play-state: paused;
+  }
+
+  /* Optional: Variasi kecepatan */
+  .animate-seamless-fast {
+    animation: seamless-scroll 20s linear infinite;
+  }
+
+  .animate-seamless-slow {
+    animation: seamless-scroll 40s linear infinite;
+  }
 }
