@@ -3,7 +3,7 @@
 
 <template>
   <div class="relative">
-    <!-- iPhone 15 Pro Frame -->
+    <!-- Frame -->
     <div class="relative w-[240px] h-[500px] bg-gradient-to-b from-gray-800 to-gray-900 rounded-[48px] p-2 shadow-2xl">
       <!-- Inner frame -->
       <div class="w-full h-full bg-black rounded-[40px] p-1">
