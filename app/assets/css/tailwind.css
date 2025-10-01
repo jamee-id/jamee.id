@@ -136,7 +136,6 @@
     font-family: theme(--font-inspiration);
   }
   
-  /* Atau override font-serif jika mau pakai default class */
   .font-serif {
     font-family: theme(--font-inspiration);
   }
@@ -154,11 +153,6 @@
     animation: seamless-scroll 30s linear infinite;
   }
 
-  .animate-seamless-scroll:hover {
-    animation-play-state: paused;
-  }
-
-  /* Optional: Variasi kecepatan */
   .animate-seamless-fast {
     animation: seamless-scroll 20s linear infinite;
   }

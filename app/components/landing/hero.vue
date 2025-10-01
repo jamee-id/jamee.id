@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import { Button } from "../ui/button"
   import { Badge } from "../ui/badge"
+  import { Button } from "../ui/button"
   import IPhoneMockup from "./mockup.vue"
 </script>
 
