@@ -59,7 +59,6 @@ Start the development server on `http://localhost:3000`:
 
         bun run dev
 
-
 ## 📦 Production
 
 Build the application for production:
@@ -80,6 +79,29 @@ Build the application for production:
 
       bun run build
 
+## Extensions Used
+
+Install the extension on <a href="https://code.visualstudio.com/">`Visual Studio Code`</a>
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxt-vscode-extentions">`Nuxt Extension Pack`</a>
+
+        https://marketplace.visualstudio.com/items?itemName=Nuxtr.nuxt-vscode-extentions
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue">`shadcn/vue`</a>
+
+         https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss">`Tailwind CSS IntelliSense`</a>
+
+         https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits">`Conventional Commits`</a>
+
+         https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">`Path Intellisense`</a>
+
+         https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 
 ## Contact info
 
