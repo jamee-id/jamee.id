@@ -93,13 +93,5 @@
         </div>
       </div>
     </div>
-
-    <div class="bg-gray-900 p-8">
-      <div class="text-center text-gray-400">
-        <p>
-          Additional content can go here...
-        </p>
-      </div>
-    </div>
   </div>
 </template>
