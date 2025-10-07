@@ -14,4 +14,4 @@ export const imageSlide = [
   { id: 13, image: "/wedding-1.jpg" },
   { id: 14, image: "/wedding-2.jpg" },
   { id: 15, image: "/wedding-3.jpg" }
-]
+];

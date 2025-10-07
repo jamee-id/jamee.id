@@ -42,13 +42,13 @@
         </div>
 
         <div class="hidden md:flex items-center space-x-3 ml-auto">
-          <Button variant="outline" size="lg" class="rounded-full border-black">
-            <NuxtLink to="/">
+          <Button variant="outline" size="lg" class="rounded-full border-black" as-child>
+            <NuxtLink to="/register">
               Daftar
             </NuxtLink>
           </Button>
-          <Button size="lg" class="rounded-full border-login border-1">
-            <NuxtLink to="/">
+          <Button size="lg" class="rounded-full border-login border-1" as-child>
+            <NuxtLink to="/login">
               Masuk
             </NuxtLink>
           </Button>
