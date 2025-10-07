@@ -20,4 +20,4 @@ export const masonryLayout = [
     { height: "h-44" },
     { height: "h-56" },
   ]
-]
+];
